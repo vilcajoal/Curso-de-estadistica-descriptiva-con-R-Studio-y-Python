@@ -50,3 +50,52 @@ c(2^30,2^(-15),1,2,3/2)
  k <- 0:10 # 10 is sufficient for ~ 9 digit precision:
  sqrt(1.25)
  sum(choose(1/2, k)* .25^k)
+ 
+ 
+ 
+ suma = function(x,y){
+         x+y
+ }
+ 
+ suma(2,3)
+ 
+ f <- function(x,y,z){
+         exp(x^2+y^2)*sin(z)
+ }
+ 
+ f(1,2,3)
+ 
+
+ 
+ ls()#listar variables
+ rm(k)# remover varible
+ ls()
+ 
+ 
+ 3+2i
+ class(3+2i) # devuelve el tipo 
+ (3+2i)*5
+ (3+2i)*(-1+3i)
+ (3+2i)/(-1+3i)
+ 
+ # esto es un error : 
+ # 2+7*i 
+ 
+ complex(real = pi ,imaginary = sqrt(2)) -> z1
+ z1
+ 
+ sqrt(-5)# error
+ sqrt(as.complex(-5))
+ 
+ sqrt(3+2i)
+ exp(3+2i)
+ sin(3+2i)
+ cos(3+2i)
+ Conj(3+2i)
+ Arg(3+2i)
+ Re(3+2i)
+ Im(3+2i)
+ 
+ 
+ 
+ 
